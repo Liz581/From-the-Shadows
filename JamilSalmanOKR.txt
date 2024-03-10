@@ -1,0 +1,31 @@
+-Character models: 6 hours (Jamil)
+  -Design in blender
+  -Or grab from the unity store
+
+-Shadowwalk ability: 4 hours (Lisset And Jamil)
+  -Spacebar to activate
+  -Can only be done in shadows
+
+-Animations: 5 hours (Jamil)
+  -Movement
+  -Kill animation
+  -KO animation
+  -Ability activation
+  -Item Use animation
+
+-Controls: 1 hour (Jamil)
+  -W, A, S, D movement
+  -Camera movement with mouse without turning the whole body
+  -Spacebar for main ability
+  -E for Item pick up and interactions
+  -1, 2, 3, … for item use or activation
+  -LMB kill/ Shoot or throw
+  -RMB KO / Aim
+  -Scroll click to lock on
+
+-Dialogue: 2 hours (Jamil)
+  -Text boxes above characters when they talk
+  -Lighting System: 7 hours (Lisset and Jamil)
+  -Determine when player is in the shadow or in the light
+  -Light interaction with the player (for shadow walk): 3- 4 hours (Lisset and Jamil)
+  -Have cases where if player moves in light either in shadow walk or not and have corresponding scripts

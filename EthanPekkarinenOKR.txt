@@ -1,0 +1,9 @@
+Level design: 8 hours (Ethan)
+Buildings
+Interiors
+Exteriors
+Additional details
+Ai pathing: 8 hours (Ethan)
+Set movements
+Follows their direction
+Detection system

@@ -1,80 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography;
 using UnityEngine;
 
 // MonoBehavior is the base class from which every Unity Script Derives
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("References")]
-    public Transform orientation;
-    public Transform player;
-    public Transform playerObj;
-    public Rigidbody rb;
+    public float speed = 25.0f;
+    public float rotationSpeed = 90;
+    public float force = 700f;
 
-    public float rotationSpeed;
+    Rigidbody rb;
+    Transform t;
 
-    public Transform combatLookAt;
-
-    public GameObject thirdPersonCam;
-    public GameObject combatCam;
-    public GameObject topDownCam;
-
-    public CameraStyle currentStyle;
-    public enum CameraStyle
+    // Start is called before the first frame update
+    void Start()
     {
-        Basic,
-        Combat,
-        Topdown
+        rb = GetComponent<Rigidbody>();
+        t = GetComponent<Transform>();
     }
 
-    private void Start()
+    // Update is called once per frame
+    void Update()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-    }
+        // Time.deltaTime represents the time that passed since the last frame
+        //the multiplication below ensures that GameObject moves constant speed every frame
+        if (Input.GetKey(KeyCode.W))
+            rb.velocity += this.transform.forward * speed * Time.deltaTime;
+        else if (Input.GetKey(KeyCode.S))
+            rb.velocity -= this.transform.forward * speed * Time.deltaTime;
 
-    private void Update()
-    {
-        // switch styles
-        if (Input.GetKeyDown(KeyCode.Alpha1)) SwitchCameraStyle(CameraStyle.Basic);
-        if (Input.GetKeyDown(KeyCode.Alpha2)) SwitchCameraStyle(CameraStyle.Combat);
-        if (Input.GetKeyDown(KeyCode.Alpha3)) SwitchCameraStyle(CameraStyle.Topdown);
-
-        // rotate orientation
-        Vector3 viewDir = player.position - new Vector3(transform.position.x, player.position.y, transform.position.z);
-        orientation.forward = viewDir.normalized;
-
-        // roate player object
-        if (currentStyle == CameraStyle.Basic || currentStyle == CameraStyle.Topdown)
-        {
-            float horizontalInput = Input.GetAxis("Horizontal");
-            float verticalInput = Input.GetAxis("Vertical");
-            Vector3 inputDir = orientation.forward * verticalInput + orientation.right * horizontalInput;
-
-            if (inputDir != Vector3.zero)
-                playerObj.forward = Vector3.Slerp(playerObj.forward, inputDir.normalized, Time.deltaTime * rotationSpeed);
-        }
-
-        else if (currentStyle == CameraStyle.Combat)
-        {
-            Vector3 dirToCombatLookAt = combatLookAt.position - new Vector3(transform.position.x, combatLookAt.position.y, transform.position.z);
-            orientation.forward = dirToCombatLookAt.normalized;
-
-            playerObj.forward = dirToCombatLookAt.normalized;
-        }
-    }
-
-    private void SwitchCameraStyle(CameraStyle newStyle)
-    {
-        combatCam.SetActive(false);
-        thirdPersonCam.SetActive(false);
-        topDownCam.SetActive(false);
-
-        if (newStyle == CameraStyle.Basic) thirdPersonCam.SetActive(true);
-        if (newStyle == CameraStyle.Combat) combatCam.SetActive(true);
-        if (newStyle == CameraStyle.Topdown) topDownCam.SetActive(true);
-
-        currentStyle = newStyle;
+        // Quaternion returns a rotation that rotates x degrees around the x axis and so on
+        if (Input.GetKey(KeyCode.D))
+            t.rotation *= Quaternion.Euler(0, rotationSpeed * Time.deltaTime, 0);
+        else if (Input.GetKey(KeyCode.A))
+            t.rotation *= Quaternion.Euler(0, - rotationSpeed * Time.deltaTime, 0);
+        
+        if (Input.GetKeyDown(KeyCode.Space))
+            rb.AddForce(t.up * force);
     }
 }

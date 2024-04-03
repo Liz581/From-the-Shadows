@@ -1,0 +1,3 @@
+our demo is staged primarily in a small town. the scene is during the night, so we have lights through paper lantern assets in order to see. 
+We have fire particle effects in braziers to act as spotlights to know where to head for the objective.
+I (Ethan) wrote a waypoint script to allow for guards to follow set paths using navmeshes, and a controller for the guards to follow the waypoints moving over walkable terrain.

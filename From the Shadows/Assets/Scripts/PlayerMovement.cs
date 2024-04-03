@@ -1,41 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 // MonoBehavior is the base class from which every Unity Script Derives
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 25.0f;
+   // public float speed = 25.0f;
     public float rotationSpeed = 90;
     public float force = 700f;
 
-    Rigidbody rb;
-    Transform t;
+    public Rigidbody rb;
+    public Transform t;
+
+    public float walkSpeed;
+    public float runSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         t = GetComponent<Transform>();
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Time.deltaTime represents the time that passed since the last frame
-        //the multiplication below ensures that GameObject moves constant speed every frame
-        if (Input.GetKey(KeyCode.W))
-            rb.velocity += this.transform.forward * speed * Time.deltaTime;
-        else if (Input.GetKey(KeyCode.S))
-            rb.velocity -= this.transform.forward * speed * Time.deltaTime;
-
-        // Quaternion returns a rotation that rotates x degrees around the x axis and so on
-        if (Input.GetKey(KeyCode.D))
-            t.rotation *= Quaternion.Euler(0, rotationSpeed * Time.deltaTime, 0);
-        else if (Input.GetKey(KeyCode.A))
-            t.rotation *= Quaternion.Euler(0, - rotationSpeed * Time.deltaTime, 0);
-        
-        if (Input.GetKeyDown(KeyCode.Space))
-            rb.AddForce(t.up * force);
+        transform.Rotate(Vector3.up * Input.GetAxis("Mouse X"));
     }
+
+    void FixedUpdate()
+    {
+        Vector3 newVelocity = Vector3.up * rb.velocity.y;
+        float speed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
+        newVelocity.x = Input.GetAxis("Horizontal") * speed;
+        newVelocity.z = Input.GetAxis("Vertical") * speed;
+        rb.velocity = newVelocity;
+    }
+
 }

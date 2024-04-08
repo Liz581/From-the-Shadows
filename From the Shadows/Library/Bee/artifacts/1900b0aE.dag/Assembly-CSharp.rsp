@@ -367,12 +367,17 @@
 "Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vPickupItem.cs"
 "Assets/Scripts/Controls.cs"
 "Assets/Scripts/Dialogue.cs"
+"Assets/Scripts/EnemyManager.cs"
 "Assets/Scripts/GuardControl.cs"
 "Assets/Scripts/HealthandMana.cs"
+"Assets/Scripts/Node.cs"
 "Assets/Scripts/NPC.cs"
 "Assets/Scripts/patrolPattern.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/Selector.cs"
+"Assets/Scripts/Sequence.cs"
 "Assets/Scripts/ShadowTechnique.cs"
+"Assets/Scripts/Tree.cs"
 "Assets/Scripts/Untitled.cs"
 -langversion:9.0
 

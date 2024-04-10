@@ -28,12 +28,19 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator.SetFloat("Speed", 0);
         // Time.deltaTime represents the time that passed since the last frame
         //the multiplication below ensures that GameObject moves constant speed every frame
         if (Input.GetKey(KeyCode.W))
+        {
             rb.velocity += this.transform.forward * speed * Time.deltaTime;
-        else if (Input.GetKey(KeyCode.S))
+            animator.SetFloat("Speed", 1);
+        } else if (Input.GetKey(KeyCode.S))
+        {
             rb.velocity -= this.transform.forward * speed * Time.deltaTime;
+            animator.SetFloat("Speed", 1);
+        }
+            
 
         // Quaternion returns a rotation that rotates x degrees around the x axis and so on
         if (Input.GetKey(KeyCode.D))

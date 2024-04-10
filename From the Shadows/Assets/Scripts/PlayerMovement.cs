@@ -23,22 +23,23 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         t = GetComponent<Transform>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        animator.SetFloat("Speed", 0);
+         animator.SetBool("Speed", false);
         // Time.deltaTime represents the time that passed since the last frame
         //the multiplication below ensures that GameObject moves constant speed every frame
         if (Input.GetKey(KeyCode.W))
         {
             rb.velocity += this.transform.forward * speed * Time.deltaTime;
-            animator.SetFloat("Speed", 1);
+            animator.SetBool("Speed", true);
         } else if (Input.GetKey(KeyCode.S))
         {
             rb.velocity -= this.transform.forward * speed * Time.deltaTime;
-            animator.SetFloat("Speed", 1);
+            animator.SetBool("Speed", true);
         }
             
 

@@ -369,6 +369,7 @@
 "Assets/Scripts/Dialogue.cs"
 "Assets/Scripts/EnemyManager.cs"
 "Assets/Scripts/footSteps.cs"
+"Assets/Scripts/GameControl.cs"
 "Assets/Scripts/GuardControl.cs"
 "Assets/Scripts/HealthandMana.cs"
 "Assets/Scripts/Loading.cs"

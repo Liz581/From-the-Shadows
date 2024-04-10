@@ -1,4 +1,0 @@
-﻿* Pseudo Code for inventory management for player (4 hrs)
-* Pseudo code for shadow technique (4 hrs)
-* Pseudo code for player movement and interactions (4 hrs)
-* Pseudo code for lighting system crossing with shadow walk technique (4 hrs)

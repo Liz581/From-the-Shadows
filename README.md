@@ -1,7 +1,0 @@
-# From the Shadows
-
-Overview: From The Shadows is a game where the player takes control of a shinobi on a revenge mission. When infiltrating, the player must maintain stealth but can use the shadows to their advantage. By submerging themselves into the shadows the player can move around without being seen however they must stay clear of light sources otherwise you will be thrown out of the shadows. The game is single player as multiplayer would make the game trivial. The target audience are for people that enjoy stealth games.
-
-Story: As the son of the current shogun in Japan you have no fears of the current succession. One day however the general of Japan’s strongest samurai army kills your father and usurps the empire as shogun. As you begin to be filled with rage, you plot your vengeance to assassinate the usurper and take back what is yours by blood. What your enemies don’t know is that you are one of japan’s most elite shinobi and have been trained in the ancient ways.
-
-Objective: The main objective is to infiltrate the shogun’s castle and assassinate him without being caught. As he has no heirs, the empire of Japan’s succession reverts back to you. While infiltrating you must not be caught otherwise the Onryo Guard, the shogun’s most elite warriors, will try and stop you before you can reach your target. You must use the shadows to maintain your stealth, but fear not if you do get caught or get thrown out of your shadow walk you do have ways to cause diversions and take out any problematic enemies.

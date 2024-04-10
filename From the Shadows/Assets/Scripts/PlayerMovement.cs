@@ -23,17 +23,34 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         t = GetComponent<Transform>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        bool forward = Input.GetKey("w");
+        bool backward = Input.GetKey("s");
+        bool isWalking = animator.GetBool("isWalking");
+        bool backwardsWalk = animator.GetBool("backWalk");
+        bool jump = animator.GetBool("jump");
         // Time.deltaTime represents the time that passed since the last frame
         //the multiplication below ensures that GameObject moves constant speed every frame
-        if (Input.GetKey(KeyCode.W))
+        if (forward) {
             rb.velocity += this.transform.forward * speed * Time.deltaTime;
-        else if (Input.GetKey(KeyCode.S))
+            if (!isWalking)
+                animator.SetBool("isWalking", true);
+        }
+        else if (!forward && isWalking)
+            animator.SetBool("isWalking", false);
+        
+        if (backward) {
             rb.velocity -= this.transform.forward * speed * Time.deltaTime;
+            if (!backwardsWalk)
+                animator.SetBool("backWalk", true);
+        }
+        else if (!backward && backwardsWalk)
+            animator.SetBool("backWalk", false);
 
         // Quaternion returns a rotation that rotates x degrees around the x axis and so on
         if (Input.GetKey(KeyCode.D))
@@ -42,11 +59,17 @@ public class PlayerMovement : MonoBehaviour
             t.rotation *= Quaternion.Euler(0, -rotationSpeed * Time.deltaTime, 0);
 
         isGrounded = Physics.CheckSphere(groundCheck.position, 0.1f, groundMask);
+        if (!isGrounded && jump) {
+            isGrounded = Physics.CheckSphere(groundCheck.position, 0.1f, groundMask);
+            animator.SetBool("jump", false);
+        }
 
         // Jumping
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             rb.AddForce(t.up * force, ForceMode.Impulse);
+            if (!jump)
+                animator.SetBool("jump", true);
         }
 
         // Step over small obstacles

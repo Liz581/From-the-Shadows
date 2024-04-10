@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography;
 using UnityEngine;
 
-// MonoBehavior is the base class from which every Unity Script Derives
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 15.0f;
     public float rotationSpeed = 90;
     public float force = 20f;
+    public float stepHeight = 0.5f; // Adjust this value according to your needs
+    public float stepDistance = 0.5f; // Adjust this value according to your needs
     Rigidbody rb;
     Transform t;
+
+    public Transform groundCheck;
+    public LayerMask groundMask;
+    private bool isGrounded;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +39,22 @@ public class PlayerMovement : MonoBehaviour
         else if (Input.GetKey(KeyCode.A))
             t.rotation *= Quaternion.Euler(0, -rotationSpeed * Time.deltaTime, 0);
 
-        if (Input.GetKeyDown(KeyCode.Space))
-            rb.AddForce(t.up * force);
+        isGrounded = Physics.CheckSphere(groundCheck.position, 0.1f, groundMask);
+
+        // Jumping
+        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.AddForce(t.up * force, ForceMode.Impulse);
+        }
+
+        // Step over small obstacles
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.forward, out hit, stepDistance))
+        {
+            if (!isGrounded && hit.distance < stepDistance && hit.distance > 0.1f)
+            {
+                transform.position += Vector3.up * stepHeight;
+            }
+        }
     }
-    }
+}

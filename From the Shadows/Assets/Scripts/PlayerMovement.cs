@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody rb;
     Transform t;
 
+    public Animator animator;
+
     public Transform groundCheck;
     public LayerMask groundMask;
     private bool isGrounded;

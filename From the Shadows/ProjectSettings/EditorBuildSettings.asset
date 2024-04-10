@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: e9b73d08b8a6a334eab5b5eb21f8f467
+  - enabled: 1
+    path: Assets/Scenes/From-the-ShadowsNew.unity
+    guid: b85fa19ad51d2dd4dae97307e943060b
   m_configObjects: {}

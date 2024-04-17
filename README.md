@@ -13,15 +13,15 @@ Jamil wrote the Mecanim for the walking guard that would be in the village and t
 Lisset wrote the Mecanim that would be for the player when they move their character.
 
 UI Design Improvements:
-Lisset
+Lisset:
 The health and mana bar in our canvas for the player were not usable for the player. In order to fix it we made our bar be 100/100 and would subtract 25 from the bar after each hit in order to give our player 4 lives essentially. This is a clarity principle.
 The controls for our player are not visible for the player to see. We plan on fixing this by making a pause screen that will show you what the controls of the game are. This is a learnability principle.
 Since our game is about exploring there isn’t any marker for where the player should go to continue the story. We made a few too many torches paths so we are working on creating a navigation system for the player so that they know which way to go. This is a Minimizing Error Possibilities principle.
-Jamil
+Jamil:
 Sounds would either be too loud or not heard at all so adjusted to linear rather than logarithmic so that it would be heard a set distance from the center of the sphere. This is a clarity Principle
 Animations are still wonky trying to better them with more transitions in the FSM. This is minimizing the error principle.
 Working on adding Kill animations and others to add the core gameplay loop.
-Ethan
+Ethan:
 The patrolling guards would still be in their walk animation even when stationary/turning around making it look weird. To be changed so they are in an idle animation when not moving. This is a clarity principle.
 Objects that can be picked up by the player will be highlighted to stand out from their environment to signify to the player that it can be picked up, and isn’t just part of the environment. This is a clarity principle.
 Currently the guard will clip into the player when chasing them, the stopping distance will be modified to create a more realistic result of the guard catching the player. This is a minimizing error possibilities principle as if the guard is clipping the player it will result in more health being taken from the player than should be.

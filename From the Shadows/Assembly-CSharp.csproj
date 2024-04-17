@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\Controls.cs" />
     <Compile Include="Assets\Scripts\GuardControl.cs" />
     <Compile Include="Assets\Scripts\Loading.cs" />
+    <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\Scripts\HealthandMana.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vComment.cs" />

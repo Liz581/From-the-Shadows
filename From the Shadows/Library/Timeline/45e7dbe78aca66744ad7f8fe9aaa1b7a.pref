@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79cb9ecc0d4a6d428ab98a681a33897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeAreaShownRange: {x: 11.186825, y: 14.688444}
+  timeAreaShownRange: {x: 9.1876135, y: 13.672573}
   trackScale: 1
   playRangeEnabled: 0
   windowTime: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
   - {fileID: 1000189861008707717, guid: 45e7dbe78aca66744ad7f8fe9aaa1b7a, type: 2}
   - {fileID: -3954887822442075017, guid: 45e7dbe78aca66744ad7f8fe9aaa1b7a, type: 2}
   - {fileID: -5189717526443920794, guid: 45e7dbe78aca66744ad7f8fe9aaa1b7a, type: 2}
-  - {fileID: -6418424423561413054, guid: 45e7dbe78aca66744ad7f8fe9aaa1b7a, type: 2}
+  - {fileID: 1132007490269285356, guid: 45e7dbe78aca66744ad7f8fe9aaa1b7a, type: 2}
   m_Vals:
   - collapsed: 0
     showMarkers: 1

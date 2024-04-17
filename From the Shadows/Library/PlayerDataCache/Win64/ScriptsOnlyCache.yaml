@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - EnemyPatrol
     - HealthandMana
     - Loading
+    - MainMenu
     - PlayerMovement
     - footsteps
     - patrolPattern
@@ -35,8 +36,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -45,8 +48,10 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   serializedClasses:
     Unity.TextMeshPro:
@@ -69,16 +74,65 @@ ScriptsOnlyBuild:
     - UnityEngine.Timeline.TimelineAsset/EditorSettings
     - UnityEngine.Timeline.TimelineClip
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: PlayGame
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: QuitGame
   sceneClasses:
     Assets/Scenes/From-the-ShadowsNew.unity:
     - Class: 1
@@ -132,21 +186,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4326}
     - Class: 114
-      Script: {instanceID: 4818}
+      Script: {instanceID: 4820}
     - Class: 114
-      Script: {instanceID: 5264}
+      Script: {instanceID: 5266}
     - Class: 114
-      Script: {instanceID: 5350}
+      Script: {instanceID: 5352}
     - Class: 114
-      Script: {instanceID: 5654}
+      Script: {instanceID: 5656}
     - Class: 114
-      Script: {instanceID: 5872}
+      Script: {instanceID: 5874}
     - Class: 114
-      Script: {instanceID: 6130}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 6678}
+      Script: {instanceID: 6680}
     - Class: 114
-      Script: {instanceID: 7340}
+      Script: {instanceID: 7342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -190,8 +244,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -201,7 +253,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2194}
+      Script: {instanceID: 1604}
     - Class: 114
       Script: {instanceID: 2616}
     - Class: 114
@@ -211,21 +263,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3762}
     - Class: 114
-      Script: {instanceID: 4120}
+      Script: {instanceID: 4430}
     - Class: 114
-      Script: {instanceID: 4374}
+      Script: {instanceID: 4726}
     - Class: 114
-      Script: {instanceID: 4428}
+      Script: {instanceID: 5084}
     - Class: 114
-      Script: {instanceID: 4724}
+      Script: {instanceID: 5656}
     - Class: 114
-      Script: {instanceID: 5082}
+      Script: {instanceID: 5806}
     - Class: 114
-      Script: {instanceID: 5654}
-    - Class: 114
-      Script: {instanceID: 5804}
-    - Class: 114
-      Script: {instanceID: 6130}
+      Script: {instanceID: 6132}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -243,6 +291,69 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 320
+      Script: {instanceID: 0}
+    Assets/Scenes/Main Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1604}
+    - Class: 114
+      Script: {instanceID: 2194}
+    - Class: 114
+      Script: {instanceID: 2616}
+    - Class: 114
+      Script: {instanceID: 2822}
+    - Class: 114
+      Script: {instanceID: 3114}
+    - Class: 114
+      Script: {instanceID: 4120}
+    - Class: 114
+      Script: {instanceID: 4376}
+    - Class: 114
+      Script: {instanceID: 5084}
+    - Class: 114
+      Script: {instanceID: 5656}
+    - Class: 114
+      Script: {instanceID: 5806}
+    - Class: 114
+      Script: {instanceID: 6132}
+    - Class: 114
+      Script: {instanceID: 24432}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 329
       Script: {instanceID: 0}
@@ -685,6 +796,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: HealthandMana
+  - hash:
+      serializedVersion: 2
+      Hash: c0aa59405edf92543c0a2308e8bc43bd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameControl
   - hash:
       serializedVersion: 2
       Hash: 9078325c2a6f6a2d9612ade897511860
@@ -1213,9 +1330,16 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fe4c75203a9743390fe41454f7d841d0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenu
   platform: 19
   scenePathNames:
+  - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/Intro.unity
   - Assets/Scenes/From-the-ShadowsNew.unity
-  playerPath: C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/From the
-    Shadows.exe
+  playerPath: C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game
+    Build/From the Shadows.exe

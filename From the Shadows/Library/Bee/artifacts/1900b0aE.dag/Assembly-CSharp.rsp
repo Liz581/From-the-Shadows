@@ -365,6 +365,7 @@
 "Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vComment.cs"
 "Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vExtensions.cs"
 "Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vPickupItem.cs"
+"Assets/MainMenu.cs"
 "Assets/Scripts/Controls.cs"
 "Assets/Scripts/Dialogue.cs"
 "Assets/Scripts/EnemyManager.cs"

@@ -34,3 +34,7 @@ Torches Burning (Created for the player to be immersed in the scene. Since the g
 Townspeople chatting (Created for the player to be immersed in the scene)
 Many backing tracks were rejected due to being too “uplifting”, not fitting the proper vibe of the game.
 
+Shader Design:
+The first shader we added was wind. This was to recreate the effects of the night and how wind is easier to notice at night.
+The second shader is water. The water before looked very matte and flat which is not like water at all so in order to give it more character the shader should be added. The shader gave us issues so currently it has yet to be in place but after some research we’re going to give it another shot with the same packages we wanted to use at first.
+The third shader is …

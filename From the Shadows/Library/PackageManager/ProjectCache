@@ -6,7 +6,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638482969919752352
+      ticks: 638489591255275192
     m_Hash: 3219397261
   m_LockFileStatus:
     m_FilePath: C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/From the
@@ -15,7 +15,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638482969919832538
+      ticks: 638489591255357258
     m_Hash: 3307115312
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -817,10 +817,12 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.9.1
     - 1.9.2
+    - 1.9.4
     compatible:
     - 1.9.1
     - 1.9.2
-    recommended: 1.9.2
+    - 1.9.4
+    recommended: 1.9.4
     deprecated:
     - 1.8.0-pre.1
   dependencies:

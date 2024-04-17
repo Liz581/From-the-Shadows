@@ -36,10 +36,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -184,23 +182,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 4326}
+      Script: {instanceID: 4328}
     - Class: 114
-      Script: {instanceID: 4820}
+      Script: {instanceID: 4822}
     - Class: 114
-      Script: {instanceID: 5266}
+      Script: {instanceID: 5268}
     - Class: 114
-      Script: {instanceID: 5352}
+      Script: {instanceID: 5354}
     - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 114
-      Script: {instanceID: 5874}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 6132}
+      Script: {instanceID: 6134}
     - Class: 114
-      Script: {instanceID: 6680}
+      Script: {instanceID: 6682}
     - Class: 114
-      Script: {instanceID: 7342}
+      Script: {instanceID: 7344}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -263,17 +261,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3762}
     - Class: 114
-      Script: {instanceID: 4430}
+      Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 4726}
+      Script: {instanceID: 4728}
     - Class: 114
-      Script: {instanceID: 5084}
+      Script: {instanceID: 5086}
     - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 114
-      Script: {instanceID: 5806}
+      Script: {instanceID: 5808}
     - Class: 114
-      Script: {instanceID: 6132}
+      Script: {instanceID: 6134}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -326,19 +324,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3114}
     - Class: 114
-      Script: {instanceID: 4120}
+      Script: {instanceID: 4028}
     - Class: 114
-      Script: {instanceID: 4376}
+      Script: {instanceID: 4122}
     - Class: 114
-      Script: {instanceID: 5084}
+      Script: {instanceID: 4378}
     - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5086}
     - Class: 114
-      Script: {instanceID: 5806}
+      Script: {instanceID: 5658}
     - Class: 114
-      Script: {instanceID: 6132}
+      Script: {instanceID: 5808}
     - Class: 114
-      Script: {instanceID: 24432}
+      Script: {instanceID: 6134}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -742,6 +740,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: fe4c75203a9743390fe41454f7d841d0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenu
   - hash:
       serializedVersion: 2
       Hash: c78ed13f6b5a632d70d4f73f56ad81f2
@@ -1330,12 +1334,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: fe4c75203a9743390fe41454f7d841d0
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main Menu.unity

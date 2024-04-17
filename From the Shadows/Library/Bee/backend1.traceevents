@@ -1,414 +1,424 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1713366020607088, "dur":2785, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713366020609881, "dur":596, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713366020610509, "dur":875, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713366020611453, "dur":121, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.iws.sse" }}
-,{ "pid":12345, "tid":0, "ts":1713366020611604, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.rsc.sse" }}
-,{ "pid":12345, "tid":0, "ts":1713366020611700, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":0, "ts":1713366020611971, "dur":127, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level2.resS" }}
-,{ "pid":12345, "tid":0, "ts":1713366020612122, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/resources.resource" }}
-,{ "pid":12345, "tid":0, "ts":1713366020612203, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":0, "ts":1713366020612289, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":0, "ts":1713366020612683, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1713366020613083, "dur":126, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020613524, "dur":96, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020613622, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020613823, "dur":132, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020613972, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020614047, "dur":124, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020614222, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020614329, "dur":188, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020614974, "dur":96, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020615210, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020615360, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020615637, "dur":121, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713366020616053, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":0, "ts":1713366020616223, "dur":181, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1713366020611403, "dur":5133, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713366020616538, "dur":301020, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713366020917559, "dur":340, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713366020917899, "dur":270, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713366020918171, "dur":75, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713366020918278, "dur":55, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713366020918480, "dur":1963, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1713366020611392, "dur":5153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1713366020616555, "dur":4247, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1713366020620850, "dur":2563, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1713366020623430, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1713366020623628, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1713366020624087, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713366020624170, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713366020624338, "dur":352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713366020624691, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713366020624780, "dur":454, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713366020625236, "dur":573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713366020625811, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713366020625909, "dur":382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713366020623429, "dur":3048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1713366020626914, "dur":68, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1713366020628385, "dur":284920, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1713366020915537, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1713366020612466, "dur":4544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713366020617014, "dur":428, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713366020617442, "dur":3633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713366020621078, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1713366020621545, "dur":1188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713366020640609, "dur":5328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1713366020645969, "dur":427, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713366020646414, "dur":13277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713366020659733, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713366020659998, "dur":23479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713366020683506, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713366020683664, "dur":16928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713366020700614, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713366020700822, "dur":17006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713366020717859, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713366020718285, "dur":17555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713366020735904, "dur":16420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1713366020752346, "dur":165224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713366020613732, "dur":3569, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713366020617301, "dur":3736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713366020621067, "dur":321, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1713366020621039, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1713366020621391, "dur":938, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713366020635051, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1713366020637595, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713366020637697, "dur":8173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713366020645979, "dur":670, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713366020646666, "dur":13217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713366020659936, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713366020660233, "dur":23289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713366020683542, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713366020683785, "dur":18003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713366020701841, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713366020701916, "dur":17943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713366020719889, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713366020720122, "dur":18418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713366020747488, "dur":5903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.rgb" }}
-,{ "pid":12345, "tid":3, "ts":1713366020753410, "dur":164156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713366020611788, "dur":4854, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713366020616644, "dur":1050, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713366020617695, "dur":3126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713366020620848, "dur":986, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1713366020620826, "dur":1011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1713366020621838, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713366020630518, "dur":7439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1713366020638022, "dur":1200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713366020639260, "dur":7556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713366020646921, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713366020647020, "dur":16214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713366020663322, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713366020663499, "dur":20972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713366020684488, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713366020684684, "dur":17610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713366020702321, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713366020702515, "dur":18975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713366020721520, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713366020721851, "dur":17985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713366020747459, "dur":5362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.caw" }}
-,{ "pid":12345, "tid":4, "ts":1713366020752843, "dur":164757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713366020611875, "dur":4774, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713366020616653, "dur":955, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713366020617608, "dur":3289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713366020620921, "dur":2984, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1713366020620900, "dur":3007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1713366020646921, "dur":2824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1713366020649857, "dur":419, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713366020650327, "dur":18152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713366020668496, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713366020668697, "dur":25698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713366020694433, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713366020694562, "dur":11784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713366020706454, "dur":3383, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713366020709861, "dur":15882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713366020725929, "dur":8675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":5, "ts":1713366020734720, "dur":9593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1713366020744384, "dur":173198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713366020612103, "dur":4566, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713366020616677, "dur":549, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713366020617226, "dur":3875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713366020621121, "dur":331, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1713366020621103, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1713366020621455, "dur":1066, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713366020639150, "dur":5321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1713366020644494, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713366020644612, "dur":10009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713366020654732, "dur":21623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713366020676403, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713366020676488, "dur":22005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713366020698521, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713366020698621, "dur":15778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713366020714430, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713366020714532, "dur":17746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713366020732324, "dur":8244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level2.resS" }}
-,{ "pid":12345, "tid":6, "ts":1713366020740606, "dur":176945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713366020612202, "dur":4549, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713366020616755, "dur":495, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713366020617250, "dur":3564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713366020620845, "dur":2439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713366020623310, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713366020644696, "dur":4002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1713366020648713, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713366020648794, "dur":18969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713366020667824, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713366020668101, "dur":25405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713366020693525, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713366020693636, "dur":12622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713366020706344, "dur":19406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713366020725876, "dur":57, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713366020725942, "dur":4183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1713366020730222, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1713366020734262, "dur":10059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level1.resS" }}
-,{ "pid":12345, "tid":7, "ts":1713366020744370, "dur":173196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713366020612295, "dur":4706, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713366020617003, "dur":510, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713366020617513, "dur":3389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713366020620905, "dur":2204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1713366020642748, "dur":4528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1713366020647300, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713366020664746, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713366020647385, "dur":17419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713366020664878, "dur":440, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713366020665390, "dur":25605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713366020691013, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713366020691137, "dur":11032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713366020702263, "dur":17962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713366020720267, "dur":468, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713366020720773, "dur":17456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713366020747466, "dur":6034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.rsc.sse" }}
-,{ "pid":12345, "tid":8, "ts":1713366020753528, "dur":164052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1713366020612528, "dur":4492, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1713366020617067, "dur":4152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1713366020621239, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":9, "ts":1713366020621220, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1713366020621435, "dur":967, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1713366020636577, "dur":6992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1713366020643617, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1713366020643856, "dur":7929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":9, "ts":1713366020651840, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1713366020652025, "dur":18095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":9, "ts":1713366020670153, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1713366020670245, "dur":25882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1713366020696147, "dur":628, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1713366020696786, "dur":15586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1713366020712407, "dur":664, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1713366020713097, "dur":17487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1713366020730659, "dur":1356, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1713366020732140, "dur":8455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":9, "ts":1713366020740637, "dur":176913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1713366020612359, "dur":4648, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1713366020617009, "dur":435, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1713366020617445, "dur":3483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1713366020620953, "dur":307, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":10, "ts":1713366020620931, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1713366020621264, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1713366020626520, "dur":7367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1713366020633925, "dur":347, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1713366020633923, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1713366020635791, "dur":4764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1713366020640680, "dur":7894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":10, "ts":1713366020648600, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1713366020648753, "dur":17419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":10, "ts":1713366020666191, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1713366020666348, "dur":26294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1713366020692691, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1713366020692899, "dur":11565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1713366020704506, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1713366020704590, "dur":16942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1713366020721597, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1713366020721854, "dur":17409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1713366020747436, "dur":5737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.iws.sse" }}
-,{ "pid":12345, "tid":10, "ts":1713366020753239, "dur":164337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1713366020612959, "dur":4306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1713366020617265, "dur":3838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1713366020621105, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1713366020621369, "dur":924, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1713366020633660, "dur":2520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1713366020636250, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1713366020636572, "dur":7801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":11, "ts":1713366020644407, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1713366020644563, "dur":10682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":11, "ts":1713366020655303, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1713366020655558, "dur":21232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1713366020676837, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1713366020677053, "dur":22493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1713366020699590, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1713366020699930, "dur":15889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1713366020715901, "dur":18872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1713366020734817, "dur":10783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level0.resS" }}
-,{ "pid":12345, "tid":11, "ts":1713366020745641, "dur":171912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1713366020612813, "dur":4444, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1713366020617257, "dur":3913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1713366020621171, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1713366020621569, "dur":1193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1713366020644561, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1713366020648604, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1713366020648742, "dur":18169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":12, "ts":1713366020666999, "dur":25387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1713366020692407, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1713366020692630, "dur":11355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1713366020704013, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1713366020704242, "dur":17685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1713366020721977, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":12, "ts":1713366020721975, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":12, "ts":1713366020722167, "dur":28721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":12, "ts":1713366020750912, "dur":166661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1713366020612754, "dur":4286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1713366020617040, "dur":4327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1713366020621410, "dur":337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1713366020621369, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1713366020621754, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1713366020628755, "dur":3835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1713366020632677, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":13, "ts":1713366020632948, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1713366020633782, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":13, "ts":1713366020636510, "dur":7460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":13, "ts":1713366020644042, "dur":7810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":13, "ts":1713366020651873, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1713366020652164, "dur":18092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":13, "ts":1713366020670336, "dur":5593, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1713366020675942, "dur":20400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1713366020696407, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1713366020696695, "dur":15446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1713366020712179, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1713366020712407, "dur":18275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1713366020730786, "dur":16617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/resources.resource" }}
-,{ "pid":12345, "tid":13, "ts":1713366020747438, "dur":170123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1713366020612625, "dur":4403, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1713366020617029, "dur":4443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1713366020621472, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1713366020621644, "dur":463, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1713366020631394, "dur":2647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1713366020634078, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":14, "ts":1713366020634077, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows.exe" }}
-,{ "pid":12345, "tid":14, "ts":1713366020634178, "dur":3161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows.exe" }}
-,{ "pid":12345, "tid":14, "ts":1713366020637389, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1713366020637702, "dur":8120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":14, "ts":1713366020645889, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1713366020645971, "dur":10644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":14, "ts":1713366020656673, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1713366020656938, "dur":20171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1713366020677167, "dur":22287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1713366020699506, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1713366020699580, "dur":15772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1713366020715415, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1713366020715582, "dur":16435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1713366020732148, "dur":15738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":14, "ts":1713366020747907, "dur":169677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1713366020613215, "dur":4058, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1713366020617273, "dur":4076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1713366020621350, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":15, "ts":1713366020621506, "dur":1042, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1713366020639753, "dur":4815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":15, "ts":1713366020644605, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1713366020644764, "dur":8368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":15, "ts":1713366020653190, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1713366020653301, "dur":22877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1713366020676220, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1713366020676351, "dur":22128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1713366020698539, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1713366020698812, "dur":15886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1713366020714805, "dur":17306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1713366020732191, "dur":6015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/resources.assets" }}
-,{ "pid":12345, "tid":15, "ts":1713366020738293, "dur":9380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":15, "ts":1713366020747706, "dur":169881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1713366020613320, "dur":3960, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1713366020617280, "dur":3750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1713366020621032, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":16, "ts":1713366020621272, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1713366020633900, "dur":121, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1713366020626862, "dur":7174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":16, "ts":1713366020634159, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":16, "ts":1713366020634313, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1713366020636596, "dur":6361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":16, "ts":1713366020643063, "dur":534, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1713366020643616, "dur":6805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":16, "ts":1713366020650479, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1713366020650836, "dur":18141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":16, "ts":1713366020668997, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1713366020669112, "dur":25686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1713366020694885, "dur":15492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1713366020710408, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1713366020710503, "dur":16787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1713366020727371, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":16, "ts":1713366020731968, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":16, "ts":1713366020734212, "dur":12880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level2" }}
-,{ "pid":12345, "tid":16, "ts":1713366020747154, "dur":170400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1713366020613530, "dur":3757, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1713366020617287, "dur":3718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1713366020621021, "dur":340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":17, "ts":1713366020621005, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":17, "ts":1713366020621365, "dur":795, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1713366020632283, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":17, "ts":1713366020634832, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1713366020635226, "dur":83, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1713366020636297, "dur":7460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":17, "ts":1713366020643862, "dur":7095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":17, "ts":1713366020651075, "dur":17910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":17, "ts":1713366020669004, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1713366020669073, "dur":25830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1713366020694921, "dur":473, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1713366020695405, "dur":14945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1713366020710391, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1713366020710648, "dur":17082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1713366020727817, "dur":7811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":17, "ts":1713366020735685, "dur":11601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level0" }}
-,{ "pid":12345, "tid":17, "ts":1713366020747315, "dur":170279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1713366020613602, "dur":3692, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1713366020617294, "dur":3652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1713366020620947, "dur":2289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":18, "ts":1713366020643525, "dur":3640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":18, "ts":1713366020647186, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1713366020647270, "dur":15427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":18, "ts":1713366020662786, "dur":21277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1713366020684081, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1713366020684276, "dur":17339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1713366020701639, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1713366020701858, "dur":17578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1713366020719497, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1713366020719681, "dur":19922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1713366020747448, "dur":4611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.ecm" }}
-,{ "pid":12345, "tid":18, "ts":1713366020752104, "dur":165471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1713366020611438, "dur":5195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1713366020616639, "dur":941, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1713366020617581, "dur":3326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1713366020620910, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":19, "ts":1713366020621468, "dur":940, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1713366020637900, "dur":5148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":19, "ts":1713366020643075, "dur":526, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1713366020643628, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":19, "ts":1713366020646970, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1713366020647281, "dur":16611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":19, "ts":1713366020663948, "dur":596, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1713366020664560, "dur":26554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1713366020691211, "dur":11332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1713366020702586, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1713366020702767, "dur":19521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1713366020722346, "dur":8177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":19, "ts":1713366020730591, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":19, "ts":1713366020730589, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":19, "ts":1713366020730646, "dur":1142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1713366020731823, "dur":6389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":19, "ts":1713366020747225, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.vis" }}
-,{ "pid":12345, "tid":19, "ts":1713366020749668, "dur":167909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1713366020613824, "dur":3484, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1713366020617308, "dur":3727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1713366020621036, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":20, "ts":1713366020621305, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1713366020626916, "dur":7039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":20, "ts":1713366020634039, "dur":212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":20, "ts":1713366020634036, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":20, "ts":1713366020634254, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1713366020635484, "dur":12713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":20, "ts":1713366020648427, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1713366020648758, "dur":18243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":20, "ts":1713366020667036, "dur":374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1713366020667443, "dur":25535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1713366020693048, "dur":11244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1713366020704314, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1713366020704595, "dur":18253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1713366020722901, "dur":14071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":20, "ts":1713366020737084, "dur":10412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":20, "ts":1713366020747533, "dur":170060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713366020924159, "dur":1132, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1713367713817829, "dur":27431, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713367713845269, "dur":103, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713367713845486, "dur":892, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713367713847094, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":0, "ts":1713367713847164, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":0, "ts":1713367713847492, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1713367713847790, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1713367713848261, "dur":103, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1713367713848603, "dur":199, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1713367713849092, "dur":200, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1713367713849438, "dur":192, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1713367713849928, "dur":178, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":0, "ts":1713367713850614, "dur":175, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1713367713851082, "dur":167, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1713367713851539, "dur":193, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":0, "ts":1713367713846394, "dur":5351, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713367713851746, "dur":306658, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713367714158404, "dur":101, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713367714158505, "dur":282, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713367714158811, "dur":85, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713367714158998, "dur":1591, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1713367713846534, "dur":5362, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713367713851900, "dur":3735, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713367713855697, "dur":17026, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1713367713872739, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1713367713873138, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713367713873318, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713367713873512, "dur":573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713367713874097, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713367713874232, "dur":407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713367713874642, "dur":942, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713367713875585, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713367713875724, "dur":394, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ricok\\OneDrive\\Documents\\GitHub\\From-the-Shadows\\From the Shadows\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713367713855695, "dur":20534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1713367713878455, "dur":273638, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1713367714157079, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1713367714157079, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1713367714157233, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1713367713846560, "dur":5390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713851954, "dur":407, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713852362, "dur":406, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713852768, "dur":3121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713855921, "dur":479, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713876082, "dur":8015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1713367713884159, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713884427, "dur":22627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713367713907109, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713921214, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713907346, "dur":13981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713367713921528, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713921953, "dur":51, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713922023, "dur":23320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713367713945377, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713945818, "dur":19977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713367713965880, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713984792, "dur":394, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713966253, "dur":18985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713367713985518, "dur":251, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713367713985780, "dur":18919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1713367714004866, "dur":153661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713847102, "dur":4996, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713852104, "dur":1019, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713853123, "dur":2628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713855752, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1713367713855855, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713863928, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1713367713865701, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":3, "ts":1713367713865700, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows.exe" }}
+,{ "pid":12345, "tid":3, "ts":1713367713865759, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713865849, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows.exe" }}
+,{ "pid":12345, "tid":3, "ts":1713367713868539, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713868894, "dur":9981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713367713878966, "dur":1447, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713880628, "dur":17777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713367713898536, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713899053, "dur":17401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713367713916572, "dur":23177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713367713939872, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713940150, "dur":20504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713367713960678, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713975545, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713960898, "dur":15004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713367713976334, "dur":1000, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713977369, "dur":558, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713367713977945, "dur":14125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1713367713992270, "dur":57448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1713367714049809, "dur":108638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713367713847291, "dur":5490, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713367713852781, "dur":3146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713367713855928, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1713367713855993, "dur":931, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713367713887800, "dur":4934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1713367713892868, "dur":1487, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713367713894407, "dur":22021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713367713916495, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713367713916577, "dur":23898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713367713940568, "dur":869, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713367713941466, "dur":20690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713367713962207, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713367713976779, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713367713962302, "dur":14591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713367713977309, "dur":68, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713367713993473, "dur":111, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713367713982240, "dur":11372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1713367713993908, "dur":8291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1713367714002298, "dur":156172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713846645, "dur":5372, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713852070, "dur":512, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713367713852020, "dur":953, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713852973, "dur":2742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713855743, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1713367713855717, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1713367713859685, "dur":8626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1713367713868500, "dur":8533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713367713877110, "dur":1511, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713878643, "dur":15526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713367713894275, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713894781, "dur":22054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713367713916865, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713941910, "dur":122, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713916972, "dur":25077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713367713942141, "dur":470, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713942633, "dur":21464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713367713964120, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713976714, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713964404, "dur":12428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713367713977114, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713977334, "dur":679, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713993469, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713367713978027, "dur":15547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1713367713993838, "dur":9967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1713367714004038, "dur":154360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713846828, "dur":5221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713852051, "dur":448, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713852499, "dur":410, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713852909, "dur":2946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713855856, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1713367713855929, "dur":751, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713884499, "dur":5252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1713367713889872, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713890018, "dur":22338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713367713912454, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713912786, "dur":17556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713367713930431, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713930622, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713930691, "dur":22856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713367713953576, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713970179, "dur":107, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713367713953732, "dur":16578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713367713970613, "dur":41566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1713367714012275, "dur":146168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713846897, "dur":5189, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713852089, "dur":435, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713852566, "dur":3367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713865756, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1713367713867607, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713867668, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713872806, "dur":345, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713868039, "dur":5121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713367713873372, "dur":15131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713367713888579, "dur":599, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713889245, "dur":24248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713367713913520, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713913794, "dur":17069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713367713930977, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713931291, "dur":21597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713367713952951, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713970191, "dur":126, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713953073, "dur":17264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713367713985612, "dur":1520, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713367713970559, "dur":16695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1713367713987604, "dur":13675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1713367714001444, "dur":156959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713367713847427, "dur":5364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713367713852791, "dur":3076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713367713855867, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1713367713865027, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1713367713867101, "dur":10018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713367713877149, "dur":1388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713367713878604, "dur":19686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713367713898405, "dur":424, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713367713898841, "dur":18683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713367713917559, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713367713917652, "dur":26249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713367713944001, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713367713944430, "dur":19896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713367713964364, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713367713984636, "dur":1311, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713367713964556, "dur":21419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713367713986203, "dur":12420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1713367713998751, "dur":403, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713367714000486, "dur":10557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1713367714011137, "dur":147300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367713847220, "dur":5554, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367713852774, "dur":3174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367713855978, "dur":958, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367713890260, "dur":7039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1713367713897397, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367713897574, "dur":19002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1713367713916650, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367713916747, "dur":25018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1713367713941814, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367713941917, "dur":205, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367713942127, "dur":21079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1713367713963230, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367713989308, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367713963561, "dur":25876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1713367713990150, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367714000741, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1713367713990283, "dur":10548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1713367714000995, "dur":157423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1713367713847151, "dur":5279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1713367713852434, "dur":787, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1713367713853221, "dur":2517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1713367713855746, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1713367713855739, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1713367713858660, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1713367713860956, "dur":7616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1713367713868617, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1713367713868907, "dur":14247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1713367713883286, "dur":23663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1713367713907005, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1713367713907078, "dur":18211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1713367713925381, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1713367713925575, "dur":22579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1713367713948233, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1713367713948430, "dur":19108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1713367713967633, "dur":74376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":10, "ts":1713367714042061, "dur":116351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713847385, "dur":5401, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713852786, "dur":3159, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713865001, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1713367713866518, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713867337, "dur":15020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1713367713882426, "dur":553, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713901035, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713882999, "dur":18095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1713367713901171, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713901545, "dur":15449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1713367713917025, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713917346, "dur":24985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1713367713942373, "dur":360, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713942762, "dur":20324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1713367713963111, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713983769, "dur":1316, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713963241, "dur":21898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1713367713985544, "dur":241, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1713367713985799, "dur":12409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1713367714000437, "dur":9677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.iws.sse" }}
+,{ "pid":12345, "tid":11, "ts":1713367714010217, "dur":148204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1713367713847727, "dur":5071, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1713367713852798, "dur":3130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1713367713855935, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":12, "ts":1713367713855928, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1713367713855987, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1713367713867740, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1713367713869605, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1713367713869702, "dur":13625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1713367713883430, "dur":23472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1713367713906992, "dur":16682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1713367713923787, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1713367713923922, "dur":22564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1713367713946557, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1713367713946885, "dur":19483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1713367713966491, "dur":129089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1713367714095618, "dur":62790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1713367713847703, "dur":5091, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1713367713852794, "dur":3078, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1713367713855913, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1713367713868535, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1713367713870719, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1713367713870816, "dur":12550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1713367713883407, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1713367713883477, "dur":23025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1713367713906536, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1713367713906627, "dur":12728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1713367713919429, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1713367713919714, "dur":25492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1713367713945245, "dur":538, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1713367713945807, "dur":21959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1713367713967904, "dur":88834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1713367714056807, "dur":101598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1713367713847755, "dur":5045, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1713367713852801, "dur":3015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1713367713855816, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1713367713855874, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1713367713864739, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1713367713866752, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1713367713866751, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1713367713867070, "dur":6449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1713367713873583, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1713367713873728, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1713367713873787, "dur":17683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1713367713891596, "dur":963, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1713367713892581, "dur":23307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1713367713915931, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1713367713916013, "dur":18143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1713367713934266, "dur":609, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1713367713934931, "dur":21528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1713367713956484, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1713367713977772, "dur":445, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1713367713956822, "dur":21446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1713367713982242, "dur":88831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/resources.resource" }}
+,{ "pid":12345, "tid":14, "ts":1713367714071124, "dur":87399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1713367713847769, "dur":5035, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1713367713852804, "dur":2993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1713367713855798, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1713367713855889, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1713367713869730, "dur":72, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1713367713869831, "dur":9763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1713367713879663, "dur":602, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1713367713880387, "dur":16069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":15, "ts":1713367713896483, "dur":577, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1713367713897130, "dur":18987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1713367713916186, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1713367713916273, "dur":21647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1713367713937992, "dur":611, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1713367713938633, "dur":21517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1713367713960207, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1713367713972335, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1713367713960386, "dur":12103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1713367713972947, "dur":23513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1713367713999272, "dur":9118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.rgb" }}
+,{ "pid":12345, "tid":15, "ts":1713367714008502, "dur":149899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1713367713847781, "dur":5028, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1713367713852809, "dur":3097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1713367713855931, "dur":555, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1713367713881776, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1713367713885884, "dur":23392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":16, "ts":1713367713909340, "dur":796, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1713367713910160, "dur":20228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1713367713930468, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1713367713930663, "dur":21583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1713367713952374, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1713367713970147, "dur":99, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1713367713952453, "dur":17820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1713367713970547, "dur":23878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1713367713999417, "dur":11880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.rsc.sse" }}
+,{ "pid":12345, "tid":16, "ts":1713367714011474, "dur":146975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713847936, "dur":4883, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713852819, "dur":3035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713855893, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713866534, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1713367713868528, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713868874, "dur":8052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":17, "ts":1713367713876975, "dur":1694, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713878697, "dur":20926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":17, "ts":1713367713899682, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713900071, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713900128, "dur":16576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1713367713916738, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713916821, "dur":25082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1713367713942076, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713942279, "dur":21338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1713367713963700, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713978257, "dur":367, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713963811, "dur":18379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1713367713983036, "dur":2523, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1713367713985570, "dur":84725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":17, "ts":1713367714070350, "dur":88150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1713367713847866, "dur":4948, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1713367713852814, "dur":3074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1713367713855914, "dur":403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1713367713871223, "dur":12234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1713367713883510, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1713367713883859, "dur":24120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":18, "ts":1713367713908058, "dur":21881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1713367713930041, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1713367713930389, "dur":21629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1713367713952108, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1713367713952202, "dur":16867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1713367713969188, "dur":43882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":18, "ts":1713367714013166, "dur":145286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713848152, "dur":4672, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713852824, "dur":2988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713860707, "dur":5018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1713367713865845, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":19, "ts":1713367713865943, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713866364, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":19, "ts":1713367713869224, "dur":347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713880675, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713869591, "dur":11147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":19, "ts":1713367713880770, "dur":1225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713882017, "dur":19587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":19, "ts":1713367713901694, "dur":519, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713902228, "dur":16158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1713367713918430, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713918860, "dur":24655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1713367713943557, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713943852, "dur":20505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1713367713964415, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713983605, "dur":1314, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713964561, "dur":20442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1713367713985299, "dur":420, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713999079, "dur":101, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1713367713985740, "dur":13465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/resources.assets" }}
+,{ "pid":12345, "tid":19, "ts":1713367714000542, "dur":8965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.caw" }}
+,{ "pid":12345, "tid":19, "ts":1713367714009718, "dur":148750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713848501, "dur":4326, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713852827, "dur":2812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713855654, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713855774, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713857670, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/app.info" }}
+,{ "pid":12345, "tid":20, "ts":1713367713860374, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1713367713860479, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713860986, "dur":4341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1713367713865441, "dur":9055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":20, "ts":1713367713874560, "dur":1712, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713876294, "dur":17018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":20, "ts":1713367713893356, "dur":975, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713894345, "dur":20075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1713367713914447, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713914620, "dur":17128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1713367713931830, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713931930, "dur":21990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1713367713953978, "dur":445, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713984696, "dur":998, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1713367713954437, "dur":31364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1713367713985992, "dur":8227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/level1.resS" }}
+,{ "pid":12345, "tid":20, "ts":1713367713999260, "dur":8968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ricok/OneDrive/Documents/GitHub/From-the-Shadows/Asgn 8 Game Build/From the Shadows_Data/GI/level2/5e/5ea6e1b0d5449687975637be0e507439.vis" }}
+,{ "pid":12345, "tid":20, "ts":1713367714008358, "dur":150051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713367714162559, "dur":1056, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
